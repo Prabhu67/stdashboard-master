@@ -1,0 +1,44 @@
+.base{
+  text-align: center;
+}
+
+.row{
+  gap: 1rem;
+}
+
+.card{
+  margin: 10px;
+}
+
+.boxes{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.welcome{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.navbuttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  padding-right: 70px;
+}
+input{
+  width: 250px;
+  border-radius: 5px;
+  padding: 8px;
+}
